@@ -1,0 +1,26 @@
+{
+  "name": "mwangaben-laravel-js-form-helpers",
+  "version": "1.0.0",
+  "description": "Javascript Form Helpers That works well with PHP Laravel framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mwangaben/mwangaben-laravel-js-form-helpers.git"
+  },
+  "keywords": [
+    "js-laravel",
+    "form-helpers-js"
+  ],
+  "author": "Benedict Mwanga",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mwangaben/mwangaben-laravel-js-form-helpers/issues"
+  },
+  "homepage": "https://github.com/mwangaben/mwangaben-laravel-js-form-helpers#readme",
+  "dependencies": {
+    "lodash": "^4.17.20"
+  }
+}
