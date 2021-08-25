@@ -1,6 +1,6 @@
 {
   "name": "mwangaben-laravel-js-form-helpers",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Javascript Form Helpers That works well with PHP Laravel framework",
   "main": "index.js",
   "scripts": {
