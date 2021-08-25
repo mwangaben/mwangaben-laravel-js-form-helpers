@@ -1,1 +1,1 @@
-module.exports = require('./src/Form.js');
+module.exports = require('./src/dist/Form.js');
