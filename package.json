@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest test/Form.spec.js",
-    "build": "rollup -c"
+    "build": "rollup -c -w"
   },
   "jest": {
     "transform": {
@@ -30,10 +30,16 @@
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",
     "@rollup/plugin-babel": "^5.3.0",
+    "@types/lodash": "^4.14.178",
     "babel-jest": "^27.0.6",
     "expect": "^27.0.6",
     "jest": "^27.0.6",
     "lodash": "^4.17.21",
-    "rollup": "^2.56.3"
+    "rollup": "^2.56.3",
+    "tslib": "^2.3.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-typescript": "^8.3.0",
+    "typescript": "^4.5.4"
   }
 }

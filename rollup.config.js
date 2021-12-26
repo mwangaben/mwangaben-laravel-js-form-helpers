@@ -1,13 +1,15 @@
 import { babel, getBabelOutputPlugin } from '@rollup/plugin-babel';
+import typescript from "@rollup/plugin-typescript";
 
 const config = {
-    input: 'src/Form.js',
+    input: 'src/Form.ts',
     output: {
         dir: 'dist',
         format: 'es'
     },
     external: ['lodash'],
     plugins: [
+        typescript(),
         babel({
         exclude: 'node_modules/**',
         babelHelpers: 'bundled'}),
